@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+@Scripts.Render("~/Scripts/jquery-1.10.2.min.js",
+                "~/Scripts/jquery.validate.min.js",
+                "~/Scripts/jquery.validate.unobtrusive.min.js"
+    )
+@*
+客户端脚本验证需要使用 上面三个包
+    使用html.textbox
+    使用强类型视图
+*@
+<h2>Log</h2>
+<form action="@Url.Content("~/Home/Logi")" method="post">
+   用户名：@Html.TextBox("name")   @*mvc脚本验证 需要导入三个js,使用Html.TextBox*@
+   @*用户名： <input type="text" name="name" />*@@Html.ValidationMessage("name")&nbsp;@Html.ValidationMessage("DoubleUser")<br/>
+    用户编码：@Html.TextBox("userCode")@*<input type="text" name="userCode" />*@@Html.ValidationMessage("userCode")<br/>
+    年龄：@Html.TextBox("age") @*<input type="text" name="age" />*@ @Html.ValidationMessage("age")<br/>
+    注册日期：@Html.TextBox("regTime")@*<input type="date" name="regTime"/>*@ @Html.ValidationMessage("regTime")<br/>
+    输入密码:@Html.TextBox("UserPwd") @*<input type="text" name="UserPwd" />*@@Html.ValidationMessage("UserPwd")<br/>
+    再次输入密码：@Html.TextBox("UserPwd2") @*<input type="text" name="UserPwd2" />*@@Html.ValidationMessage("UserPwd2")<br/>
+    <input type="submit" value="登录" />
+   
+    @Html.ValidationSummary()
+</form>

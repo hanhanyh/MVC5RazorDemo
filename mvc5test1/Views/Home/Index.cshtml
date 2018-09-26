@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section header
+{
+    @Styles.Render("~/Content/mycss.css")
+}
+@using mvc5test1.Models;    
+<ul  >
+    @foreach (var item in Model as List<User>)    //Model 强类型
+    {
+    <li>  姓名：@item.name,年龄 @item.age </li>
+    }
+</ul>
+@{
+
+    int number = 10;
+ }
+<ul>
+    @for (int i = 0; i < number; i++)
+    {
+         <li>@i</li>
+    }
+</ul>
+@{ 
+    string str = "MyApp";
+}
+@(str).Models
+ 
+ <h4>解析脚本</h4>
+@{ 
+    string jsstr = "<script>alert(1)</script>";
+}
+@Html.Raw(jsstr)
+
+<script>
+
+    alert("@Ajax.JavaScriptStringEncode(ViewBag.jsdata)");
+</script>
+111@@qq.com
+<br/>
+@helper  show(int num1, int num2)
+{
+    int num3= num2 + num1;
+   @num3
+}
+<p>2+5= @show(2,5)</p>
+
+@*注释注释注释Razor注释*@
+@{
+    string s = "1000";
+    int num = Convert.ToInt32(s);
+    num = num + 1;
+}
+@if (num > 1000)
+{
+    @num
+}
