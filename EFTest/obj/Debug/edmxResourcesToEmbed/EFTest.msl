@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Books">
       <EntityTypeMapping TypeName="MVCTest1Model.Books">
         <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="CID" ColumnName="CID" />
           <ScalarProperty Name="BookId" ColumnName="BookId" />
           <ScalarProperty Name="BookName" ColumnName="BookName" />
           <ScalarProperty Name="ClickNum" ColumnName="ClickNum" />
@@ -33,7 +34,6 @@
     <EntitySetMapping Name="Catalog">
       <EntityTypeMapping TypeName="MVCTest1Model.Catalog">
         <MappingFragment StoreEntitySet="Catalog">
-          <ScalarProperty Name="BookId" ColumnName="BookId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>

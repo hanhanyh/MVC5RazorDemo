@@ -135,6 +135,40 @@ namespace mvc5test1.Controllers
             }
             return Content("xxx");
         }
+        //join 连接查询
+        public ActionResult Join()
+        {
+            MVCTest1Entities entities = new MVCTest1Entities();
+           var query=  from a in entities.Books
+            join c in entities.Catalog on a.CID equals c.ID
+            //--where xxx
+            select new
+            {
+                Name = a.BookName,
+                CName = c.Name
+            };
+            ///group by 
+            ///select 
+            foreach (var item in query)
+            {
+                string name = item.Name;
+                string cname = item.CName;
+            }
+            return Content("xxx");
+        }
+        //子查询
+        /*
+         from a in obj.tabStudent
+         var list=select new
+         {
+             name=a.name,
+             gname={
+                  from b in obj.Grade
+                  where b.GradeID==a.GradeId
+                  select b.GradeName
+                }.FirstOrDefault
+         };
+         */
 
     }
 }

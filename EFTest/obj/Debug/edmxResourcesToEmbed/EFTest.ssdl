@@ -7,6 +7,7 @@
     <Property Name="BookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="BookName" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="ClickNum" Type="int" Nullable="false" />
+    <Property Name="CID" Type="int" />
   </EntityType>
   <EntityType Name="Catalog">
     <Key>
@@ -14,7 +15,6 @@
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
-    <Property Name="BookId" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="sysdiagrams">
     <Key>

@@ -12,6 +12,7 @@
           <Property Name="BookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="BookName" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="ClickNum" Type="int" Nullable="false" />
+          <Property Name="CID" Type="int" />
         </EntityType>
         <EntityType Name="Catalog">
           <Key>
@@ -19,7 +20,6 @@
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
-          <Property Name="BookId" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -56,6 +56,7 @@
           <Property Name="BookId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="BookName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="ClickNum" Type="Int32" Nullable="false" />
+          <Property Name="CID" Type="Int32" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -87,7 +88,6 @@
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="BookId" Type="Int32" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -98,6 +98,7 @@
           <EntitySetMapping Name="Books">
             <EntityTypeMapping TypeName="MVCTest1Model.Books">
               <MappingFragment StoreEntitySet="Books">
+                <ScalarProperty Name="CID" ColumnName="CID" />
                 <ScalarProperty Name="BookId" ColumnName="BookId" />
                 <ScalarProperty Name="BookName" ColumnName="BookName" />
                 <ScalarProperty Name="ClickNum" ColumnName="ClickNum" />
@@ -127,7 +128,6 @@
           <EntitySetMapping Name="Catalog">
             <EntityTypeMapping TypeName="MVCTest1Model.Catalog">
               <MappingFragment StoreEntitySet="Catalog">
-                <ScalarProperty Name="BookId" ColumnName="BookId" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>

@@ -16,6 +16,5 @@ namespace EFTest
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public int BookId { get; set; }
     }
 }

@@ -17,5 +17,6 @@ namespace EFTest
         public int BookId { get; set; }
         public string BookName { get; set; }
         public int ClickNum { get; set; }
+        public Nullable<int> CID { get; set; }
     }
 }
