@@ -110,6 +110,31 @@ namespace mvc5test1.Controllers
             }
             return Content("x");
         }
+        //top  Take 和Top的效果一样
+        public ActionResult Top()
+        {
+            MVCTest1Entities entities = new MVCTest1Entities();
+            var query = (from a in entities.Books select a).Take(2);
+            foreach (var item in query)
+            {
+                string name = item.BookName;
+            }
+            return Content("#");
+        }
+        //Skip
+        public ActionResult Skip()
+        {
+            //skip 跳过指定行数的数据（排序之后再使用）
+            MVCTest1Entities entities = new MVCTest1Entities();
+            var query = (from a in entities.Books
+                         orderby a.BookId descending
+                         select a).Skip(2).Take(2);
+            foreach (var item in query)
+            {
+                string name = item.BookName;
+            }
+            return Content("xxx");
+        }
 
     }
 }
