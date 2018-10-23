@@ -42,5 +42,15 @@ namespace mvc5test1.Controllers
             FormsAuthentication.SignOut();//清空
             return Content("注销成功");
         }
+        /// <summary>
+        /// 验证
+        /// </summary>
+        /// <returns></returns>
+        /// [Authorize(Users="admin,root")] 只有用户名为Admin,root才有权限
+        [Authorize]
+        public ActionResult doauth()
+        {
+            return Content("验证成功");
+        }
     }
 }
