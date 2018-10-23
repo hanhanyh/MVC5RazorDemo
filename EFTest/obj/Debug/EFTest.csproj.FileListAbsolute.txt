@@ -11,3 +11,4 @@ D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.csproj.CopyComplete
 D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.dll
 D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.pdb
 D:\vsProjects\MVC5\mvc5test1\EFTest\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.csprojResolveAssemblyReference.cache
