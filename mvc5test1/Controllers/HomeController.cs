@@ -42,6 +42,13 @@ namespace mvc5test1.Controllers
             }
             return View(u);
         }
+        [HandleError(ExceptionType=typeof(Exception),View ="Error")]
+        public ActionResult testError()
+        {
+            string  i = null;
+            int ii = i.Length;
+            return Content("xx");
+        }
        
     }
 }

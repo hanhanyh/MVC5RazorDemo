@@ -20,15 +20,12 @@ D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\Microsoft.DiaSymReader.Native.
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\Microsoft.Win32.Primitives.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.AppContext.dll
-D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Collections.Immutable.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Console.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Diagnostics.Process.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Diagnostics.StackTrace.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.Compression.dll
-D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.FileSystem.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.FileSystem.Primitives.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.Pipes.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Reflection.Metadata.dll
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Security.AccessControl.dll
@@ -103,3 +100,6 @@ D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\EFTest.dll.config
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\EntityFramework.xml
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\EntityFramework.SqlServer.xml
 D:\vsProjects\MVC5\mvc5test1\mvc5test1\obj\Debug\mvc5test1.csprojResolveAssemblyReference.cache
+D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.Collections.Immutable.dll
+D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.FileSystem.dll
+D:\vsProjects\MVC5\mvc5test1\mvc5test1\bin\roslyn\System.IO.FileSystem.Primitives.dll
