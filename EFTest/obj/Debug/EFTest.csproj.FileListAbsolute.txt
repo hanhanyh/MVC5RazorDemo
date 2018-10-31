@@ -12,3 +12,17 @@ D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.dll
 D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.pdb
 D:\vsProjects\MVC5\mvc5test1\EFTest\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 D:\vsProjects\MVC5\mvc5test1\EFTest\obj\Debug\EFTest.csprojResolveAssemblyReference.cache
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EFTest.dll.config
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EFTest.dll
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EFTest.pdb
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EntityFramework.dll
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EntityFramework.SqlServer.dll
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EntityFramework.xml
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\EntityFramework.SqlServer.xml
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\杂货\MVC5RazorDemo\EFTest\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\杂货\MVC5RazorDemo\EFTest\obj\Debug\EFTest.csprojAssemblyReference.cache
+E:\杂货\MVC5RazorDemo\EFTest\obj\Debug\EFTest.csproj.CoreCompileInputs.cache
+E:\杂货\MVC5RazorDemo\EFTest\obj\Debug\EFTest.csproj.CopyComplete
+E:\杂货\MVC5RazorDemo\EFTest\obj\Debug\EFTest.dll
+E:\杂货\MVC5RazorDemo\EFTest\obj\Debug\EFTest.pdb

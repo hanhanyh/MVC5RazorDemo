@@ -156,6 +156,8 @@
     <Compile Include="Controllers\FormAuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinqController.cs" />
+    <Compile Include="Controllers\UseFilterController.cs" />
+    <Compile Include="Filters\LogFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -203,12 +205,14 @@
     <Content Include="Views\Home\Logi.cshtml" />
     <Content Include="Views\AjaxFile\Index.cshtml" />
     <Content Include="Views\Caches\Index.cshtml" />
+    <Content Include="Views\UseFilter\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\Home\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Logs\" />
     <Folder Include="Views\EF\" />
     <Folder Include="Views\FormAuth\" />
     <Folder Include="Views\Linq\" />
